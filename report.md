@@ -1,6 +1,6 @@
 # Auditoria documental de estatísticas — UEFA Nations League 2026/27
 
-Emitido em 2026-10-05T20:02:09.100101+00:00
+Emitido em 2026-10-05T20:07:30.243115+00:00
 Painel interativo: https://russodrl.github.io/bingoemcasa-nations-audit/
 
 ## 1. Parecer executivo
@@ -92,7 +92,7 @@ Valores Portugal; Sofascore é artigo pós-jogo, NÃO extração da aba estatís
 - A taxa usa 16 famílias operacionais de indicadores comuns, sem duplicar percentuais derivados de passes/cruzamentos. Nomes semelhantes não provam protocolo idêntico; diferenças são documentais, não necessariamente erros.
 - Camadas de definição pendente (cartões, desarmes, grandes chances, recuperações, xG e demais campos) ficam visíveis em filtro próprio ou em Todos os dados, mas fora das taxas. Cartões podem incluir comissão técnica e diferentes convenções para segundo amarelo.
 - Fonte Sofascore: acesso à aba/API bloqueado inclusive no navegador Vmarket. Artigos diretamente recuperados são camada opcional e parcial; snippets e números conflitantes não participam das taxas.
-- Analyst: match centre público com 49 métricas widget por jogo, coletadas diretamente nos 87 jogos. Somente cinco famílias CORE ausentes do widget são complementadas por valores explícitos do matchstats_detailed: accuratePass, shotOffTarget, accurateCross, saves e hitWoodwork. Ausentes e NaN% são N/D, nunca zero; o feed nunca sobrescreve o widget.
+- Analyst: match centre público com 49 métricas widget por jogo, coletadas diretamente nos 87 jogos. Somente cinco famílias CORE ausentes do widget são complementadas por valores explícitos do matchstats_detailed: accuratePass, shotOffTarget, accurateCross, saves e hitWoodwork. Outros campos explicitamente correspondentes dos feeds (incluindo xG/xGOT/xA) são mostrados como camada de definição pendente, fora das taxas. Ausentes e NaN% são N/D, nunca zero; o feed nunca sobrescreve o widget.
 - Diferença absoluta: |fonte − UEFA|. Desvio relativo: |fonte − UEFA| / |UEFA| × 100. UEFA zero e fonte diferente de zero: indefinido. Taxa de divergência: células diferentes / células comparáveis. N/D nunca entra como zero.
 - Taxas são descritivas; não há amostra aleatória, teste de causalidade ou ranking de acurácia. As quatro fontes não são votos independentes. Os horários de captura diferem e correções posteriores podem alterar valores.
 - Dados esportivos públicos e citações de proveniência somente. Não publica credenciais, dados de clientes, sessões do navegador nem cópias integrais dos artigos. Uso em produção comercial requer licença e diligência próprias.
